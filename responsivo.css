@@ -1,67 +1,78 @@
-/*Estilo para tablet*/
-
-@media only screen and (min-width: 788px) and (max-width: 979px) {
-    body {
-        width: 100vw;
+    /*Estilo para tablet*/
+    
+    @media only screen and (min-width: 788px) and (max-width: 979px) {
+        body {
+            width: 100vw;
+        }
     }
-}
-
-
-/*Estilo para SmartPhone*/
-
-@media only screen and (max-width: 787px) {
-    .painel {
-        display: block;
-        width: 100vw;
-        height: 100vh;
+    /*Estilo para SmartPhone*/
+    
+    @media only screen and (max-width: 787px) {
+        .painel {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+        }
+        .art {
+            visibility: hidden;
+            max-width: 0%;
+            margin: 25px 100px 0px 100px;
+        }
+        .section_form {
+            max-width: 100%;
+            min-width: 50vw;
+            height: 100%;
+            margin: 25px 20px 0px 20px;
+            padding: 0px 0px 0px 0px;
+        }
+        .section_form img {
+            width: 50%;
+            margin-top: 5px;
+        }
+        .section_form h1 {
+            width: 100%;
+            margin: 5px 0px 5px 0px;
+        }
+        .Fomulario_contato {
+            max-width: 100vw;
+            min-width: 50vw;
+            max-height: 50vh;
+        }
+        .Fomulario_contato input,
+        .Fomulario_contato textarea {
+            width: 90%;
+            margin: 0px auto 0px;
+        }
+        .Fomulario_contato label {
+            margin: 0px;
+        }
+        .Fomulario_contato ul li input {
+            width: 10px;
+            margin: 0px 0px 0px 1px;
+            padding: 0px 0px 0px 2px;
+        }
+        .Fomulario_contato label {
+            margin-top: 25px;
+        }
+        .Fomulario_contato textarea {
+            margin-bottom: 15px;
+        }
+        .Fomulario_contato button {
+            margin: 0px 100px 25px 100px;
+            width: 50%;
+        }
+        .Fomulario_contato div {
+            margin: 0px 50px 0px 50px;
+        }
     }
-    .art {
-        visibility: hidden;
-        max-width: 0%;
-        margin: 25px 100px 0px 100px;
+    
+    @media only screen and (max-width: 400px) {
+        .section_form {
+            width: 100vw;
+            min-width: 50vw;
+            height: 100%;
+        }
+        .section_form h1 {
+            margin-top: 5px;
+        }
     }
-    .section_form {
-        max-width: 120vw;
-        min-width: 50vw;
-        height: 100vh;
-        margin: 100px 20px 0px 20px;
-        padding: 0px 0px 0px 0px;
-    }
-    .section_form img {
-        margin-top: 5px;
-    }
-    .section_form h1 {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    .Fomulario_contato {
-        max-width: 100vw;
-        min-width: 50vw;
-        max-height: 50vh;
-    }
-    .Fomulario_contato label,
-    input,
-    textarea {
-        max-width: 100vw;
-        margin: 0px 50px 0px 50px;
-    }
-    .Fomulario_contato ul li input {
-        width: 20px;
-        margin: 0px 0px 0px 1px;
-        padding: 0px 0px 0px 2px;
-    }
-    .Fomulario_contato label {
-        margin-top: 25px;
-    }
-    .Fomulario_contato textarea {
-        margin-bottom: 50px;
-    }
-    .Fomulario_contato button {
-        margin: 0px 150px 25px 150px;
-        width: 40vw;
-        height: 10vh;
-    }
-    .Fomulario_contato div {
-        margin: 0px 50px 0px 50px;
-    }
-}
