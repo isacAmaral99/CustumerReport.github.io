@@ -1,0 +1,25 @@
+/*Estilo para tablet*/
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {}
+
+
+/*Estilo para SmartPhone*/
+
+@media only screen and (max-width: 787px) {
+    .painel {
+        display: block;
+    }
+    .art {
+        max-width: 75%;
+        margin: 25px 100px 0px 100px;
+    }
+    .section_form {
+        width: 100%;
+    }
+    .Fomulario_contato label,
+    input,
+    textarea {
+        margin: 0px 0px 0px 0px;
+        padding: 5px;
+    }
+}

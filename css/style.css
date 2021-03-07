@@ -1,0 +1,102 @@
+body {
+    background: #2F92CA;
+}
+
+.painel {
+    display: flex;
+}
+
+.art {
+    margin: 100px;
+}
+
+.section_form {
+    margin: 25px 0px 25px 0px;
+    width: 590px;
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.section_form img {
+    margin: 25px 100px 15px;
+}
+
+.section_form h1 {
+    margin: 0px 75px 10px 90px;
+    color: #2F92CA;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.Fomulario_contato label,
+input,
+textarea {
+    margin: 0px 75px 0px 75px;
+}
+
+.Fomulario_contato label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.01em;
+    color: #2F92CA;
+}
+
+.Fomulario_contato input,
+textarea {
+    width: 389px;
+    /* topo | direita | inferior | esquerda */
+    border: 2px solid #2F92CA;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7px 10px;
+    outline: none;
+}
+
+.Fomulario_contato div {
+    margin: 0px 100px 0px 100px;
+}
+
+.Fomulario_contato ul li {
+    margin-left: 5px;
+    padding: unset;
+    display: inline-block;
+}
+
+.Fomulario_contato ul li label {
+    display: inline-block;
+    margin: 0px 0px 0px 1px;
+    padding: unset;
+}
+
+.Fomulario_contato ul li input {
+    width: 10px;
+    margin: 0px 0px 0px 1px;
+    padding: 0px 0px 0px 2px;
+}
+
+.Fomulario_contato button {
+    margin: 0px 200px 25px 200px;
+    background: #2F92CA;
+    border: none;
+    border-radius: 10px;
+    width: 142px;
+    height: 59px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
