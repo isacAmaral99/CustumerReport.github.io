@@ -10,16 +10,21 @@
         display: block;
     }
     .art {
-        max-width: 75%;
+        max-width: 60%;
         margin: 25px 100px 0px 100px;
     }
     .section_form {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .Fomulario_contato label,
+    .Fomulario_contato input,
+    .Fomulario_contato textarea {
         width: 100%;
     }
     .Fomulario_contato label,
     input,
     textarea {
         margin: 0px 0px 0px 0px;
-        padding: 5px;
     }
 }
