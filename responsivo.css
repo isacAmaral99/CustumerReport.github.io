@@ -15,12 +15,21 @@
         margin: 25px 100px 0px 100px;
     }
     .section_form {
-        width: 100%;
+        max-width: 100%;
+        min-width: 50%;
+        margin: 0px 20px 0px 20px;
         padding: 0px 0px 0px 0px;
     }
     .Fomulario_contato label,
     input,
     textarea {
+        min-width: 50%;
+        max-width: 50%;
         margin: 0px 50px 0px 100px;
+    }
+    .Fomulario_contato ul li input {
+        width: 5px;
+        margin: 0px 0px 0px 1px;
+        padding: 0px 0px 0px 2px;
     }
 }
